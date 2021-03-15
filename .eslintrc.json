@@ -26,6 +26,14 @@
     "rules": {
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/explicit-function-return-type": [
+        "error",
+        {
+          "allowExpressions": true
+        }
+      ],
+      "no-empty-function": "off",
+      "@typescript-eslint/no-empty-function": "off",
       "react/jsx-filename-extension": [
         1,
         {
@@ -38,6 +46,7 @@
       "@typescript-eslint/no-use-before-define": [
         "error"
       ],
+      "camelcase":"off",
       "react/react-in-jsx-scope": "off",
       "prettier/prettier": "error",
       "import/extensions": [
